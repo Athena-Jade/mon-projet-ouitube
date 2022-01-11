@@ -1,0 +1,70 @@
+.library-item{
+    width: 400px; /* 400px */
+    cursor: pointer;
+}
+
+/* changer couleur arrière plan*/
+.library-item:hover{
+    background-color: #efefef;
+    border-radius: 20px;
+}
+
+
+/* réduire la première image */
+.library-item .library-video-poster img{
+    width: 100%;
+    height:250px ;    /* 250px*/
+    border-radius: 20px;
+}
+
+
+.video-title{
+    font-weight:bold ;
+}
+
+.owner-video-fullname{
+    color: gray;
+}
+
+
+.owner-video-fullname:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* met de l'espace entre views et il y a.. */
+.video-meta-views::after{
+    content : "  ";
+}
+
+
+.library-video-meta{
+    height: 100px;
+}
+
+
+.video-meta-data{
+    
+    color: gray;
+}
+
+
+/* agrandir au survol souris */
+.video-meta-data:hover{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+/* mettre couleur icon youtube */
+.library-item .fa-youtube{
+    color: red;
+    font-size: 2.2rem;
+}
+
+
+/*  icon youtube au survol */
+.library-item .fa-youtube:hover{    
+    font-size: 2.5rem;
+}
